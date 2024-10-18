@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "open sans";
+    background-image: url(./bg-l.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 10px;  
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 350px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 1px 1px 30px gray;
+    text-align: center;
+    height: 480px;
+}
+
+.banner {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.wraper {
+    padding: 20px;
+    height: calc(100% - 140px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  background-color: #ADB3BD;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.cirkel {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #516B90;
+    border: 6px solid #84949E;
+}
+
+.btn-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.payment{
+    background-color: #4B5C74;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.cancel {
+    border: 1px solid transparent;
+    background-color: white;
+    color: grey;
+}
+
+.year {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 20px;
+   font-weight: 10;
+}
+
+.Change {
+    color: grey;
+}
+
+.payment:hover {
+    border-radius: 10px;
+}
+
+.payment:hover {
+    transform: scale(1.05);
+}
+
+.cancel:hover {
+    transform: scale(1.20);
+}
+
+.Change:hover {
+    transform: scale(1.05);
+}
+
+.order {
+    font-family: "open sans";
+    height: 20px;
+    font-size: 22px;
+    font-weight: 10;
+}
+
+.learn {
+    font-weight: 10;
+}
+
+.Annual{
+    font-weight: 10;
+}
